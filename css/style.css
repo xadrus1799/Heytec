@@ -784,6 +784,11 @@ a.box-triangle__aside:hover .box-triangle__image {
 		-ms-flex-pack: justify;
 		justify-content: space-between;
 	}
+@media (min-width: 768px) {
+	.buttonmargin {
+		margin-top: 41px;
+	}
+}
 	.box-triangle > * {
 		width: 50%;
 	}
@@ -865,6 +870,11 @@ a.box-triangle__aside:hover .box-triangle__image {
 	}
 }
 
+@media (min-width: 480px) and (max-width: 767px) {
+	.buttonmargin {
+		margin-top: 30px;
+	}
+}
 @media (min-width: 1200px) {
 	.box-triangle {
 		min-height: 430px;
