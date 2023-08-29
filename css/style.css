@@ -74,6 +74,8 @@
 *   6. Fonts
 *     6.1 FontAwesome
 *     6.2 MDI
+
+	7. Video
 **/
 a:focus,
 button:focus {
@@ -32362,4 +32364,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .fl-bigmug-line-zoom60:before {
 	content: "\e0db";
+}
+
+/**
+ * Videos 
+ */
+
+@media (max-width: 768px) {
+	.videomobileindex {
+		padding-right: 100px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1020px){
+	.videomobileindex {
+		padding-right: 20em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.videomobileprojects {
+		display: none;
+	}
 }
