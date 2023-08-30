@@ -32372,16 +32372,28 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 @media (min-width: 0px) and (max-width: 768px) {
 	.videomobileindex {
-		height: 500px;
+		height: auto;
 		width: 380px;
 		padding-right: 100px;
 	}
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
 	.videomobileprojects {
-		height: 600px;
-		width: 540px;
-		padding-right: 100px;
+		height: auto;
+		width: 100%;
+		
 	}
 }
+
+@media (min-width: 0px) and (max-width: 450px) {
+	.videomobileprojects {
+		height: auto;
+		width: 390px;
+		
+	}
+}
+
 @media (min-width: 768px) and (max-width: 1200px){
 	.videomobileindex {
 		padding-right: 20em;
