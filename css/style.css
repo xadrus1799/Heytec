@@ -32382,7 +32382,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	.videomobileprojects {
 		height: auto;
 		width: 100%;
-		
 	}
 }
 
@@ -32390,7 +32389,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	.videomobileprojects {
 		height: auto;
 		width: 390px;
-		
 	}
 }
 
@@ -32402,6 +32400,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 @media (min-width: 768px) and (max-width: 1200px) {
 	.videomobileprojects {
-		display: none;
+		height: auto;
+		width: 100%;
 	}
 }
